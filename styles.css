@@ -1,0 +1,157 @@
+/*-- To Do List
+1. Shading of fonts & bottom instructions + shadow around ticket box
+2. Clean up styling
+3. Is there a way to get the font style?
+4. Push to github
+5. Bevelled edges - need Ron's help
+--*/
+
+body {
+  font-size: 2rem;
+  color: #616161;
+  text-align: center;
+  background: #E8E8E8;
+  width: 85%;
+  margin: auto;
+}
+
+h1 {
+  color: white;
+  margin: 0;
+}
+
+.ticket {
+  box-shadow: 0 8px 16px 0 #D8D8D8, 0 6px 20px 0 #D8D8D8;
+  border-bottom-left-radius: 3%;
+  border-bottom-right-radius: 3%;
+}
+
+/*-- Sections -->*/
+.colored-section {
+  background: #E9425D;
+  background-image: linear-gradient(to right, #F18650, #E9425D);
+  color: white;
+}
+
+.white-section {
+  background: white;
+  padding-bottom: 5rem;
+}
+
+
+/*-- Account Section -->*/
+.top-section-name {
+  padding: 2rem 0;
+  font-size: 2.5rem;
+}
+
+/*-- Movie Details -->*/
+.hr1 {
+  border: 0;
+  height: 0.8rem;
+  background: #E9425D;
+  background-image: linear-gradient(to right, #F18650, #E9425D);
+}
+
+.movie-title {
+  background: linear-gradient(to right, #F18650 0%, #E9425D 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  padding: 6rem 0 3rem 0;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  font-size: 4.5rem;
+  line-height: 3.5rem;
+  width: 75%;
+}
+
+.booking-ref {
+  margin-bottom: 0;
+}
+
+.booking-number {
+  font-size: 3rem;
+  font-weight: 800;
+  padding-left: 1rem;
+}
+
+.row {
+  padding: 3.5rem 8rem 2.5rem 8rem;
+}
+
+.section-heading {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+.section-numbers {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+
+/*-- Receipt Details -->*/
+#receipt-section {
+  border-bottom-left-radius: 3%;
+  border-bottom-right-radius: 3%;
+}
+
+#receipt-details {
+  padding-top: 1.5rem;
+  padding-bottom: 5rem;
+  font-weight: 700;
+  color: #919191;
+  border-radius: 40%;
+}
+
+.receipt-text {
+  font-size: 2.5rem;
+  font-weight: 500;
+  padding-left: 2rem;
+}
+
+.receipt-numbers{
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.perforated-line {
+  border-top: 0.5rem dashed;
+  color: #919191;
+}
+
+.barcode {
+  padding-top: 2.5rem;
+}
+
+
+/*-- Instructions -->*/
+.instructions {
+  padding: 2rem 0 15rem 0;
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 2.5rem;
+  color: #919191;
+}
+
+
+/*-- Account Bar -->*/
+.account-bar {
+  background-color: white;
+  padding: 1rem 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.account-bar .row{
+  padding: 0;
+  color: #F18650;
+}
+
+.account-icon {
+  color: #919191;
+}
